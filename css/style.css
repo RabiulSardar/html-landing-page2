@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{    overflow-x: hidden;
+}
+.nav_img{
+    width: 60px;
+    height: 60px;
+}
+.navbar-brand{
+    color: rgb(64, 131, 218) !important;
+    font-size: 30px !important;
+    font-family: "Vollkorn", serif;
+    margin-left: 10px;
+
+}
+.navber-list{
+    background-color: rgba(238, 234, 234, 0.3);
+}
+.navbar-nav{
+    margin-left: 520px;
+}
+.nav-item a{
+    color:rgb(36, 129, 211) !important;
+    font-size: 18px;
+}
+
+/* banner start */
+.banner{
+    background-image: url(/image/background.webp)!important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+
+.banner h1{
+    padding-top: 160px;
+    padding-left: 80px;
+    font-size: 50px;
+    font-weight: 600;
+    /* font-family: "Jost", sans-serif; */
+  font-family: "Vollkorn", serif;
+    color: white;
+    opacity: .6;
+}
+.banner p{
+    margin-top:20px;
+    margin-left:80px;
+    font-size:16px;
+    font-weight:400;
+    font-family:"Vollkorn", serif;
+    color:white;
+    opacity:.6;
+    width: 900px;
+}
+.banner-btn{
+    margin-left: 80px;  
+}
+.Our-services {
+    text-align: center;
+    font-size: 60px;
+    font-family: "Vollkorn", serif;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+
+/* =================
+services  part start
+==================== */
+.box {
+    display: flex;
+}
+.services .left{
+    width: 50%;
+    background: rgb(235, 231, 231);
+    height: 400px;
+  
+}
+.services .left div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.services .left h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: black;
+    font-family:  "poppins", sans-serif;
+    
+}
+.services .left p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6c6c6c;
+    font-family:  "poppins", sans-serif;
+    width: 405px;
+}
+
+.services .right{
+    width: 50%;
+    background: rgb(18, 192, 96);
+    height: 400px;
+
+}
+.services .right_image1{
+    background-image: url(/image/card4.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 400px; ;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.services .right_image1 .overlay{
+    position: absolute;
+    bottom: 400px;
+    left: 0;
+    transition: 0.9s;
+}
+.services .right_image1:hover .overlay{
+   bottom: 0;
+ }
+.services .right_image2{
+    background-image: url(/image/card2.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 400px; ;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.services .right_image2 .overlay{
+    position: absolute;
+    top: 0;
+    left: -670px;
+    transition: 0.9s;
+}
+.services .right_image2:hover .overlay{
+    left: 0;
+ }
+.services .right_image3{
+    background-image: url(/image/card1.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 400px; ;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.services .right_image3 .overlay{
+    position: absolute;
+    left: 670px;
+    right: 0;
+    transition: 0.9s;
+}
+.services .right_image3:hover .overlay{
+   left: 0;
+}
+.services .right h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    font-family:  "poppins", sans-serif;
+   
+}
+.services .right button{
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px  20px;
+    border: 1px solid white;
+    color: white;
+    background-color:red;
+    border: 0;
+    margin-right: 430px;
+}
+.services .right .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(45, 40, 40, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services .box{
+    flex-wrap: wrap;
+}
+
+
+/* =================
+services  part end
+==================== */
+/* ==========================
+   Footer start
+============================= */
+.footer{
+    margin-top: 20px;
+    background: #00413D;
+    padding: 80px 0px;
+    text-align: center;
+}
+.footer .ulOne ul{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Jost", sans-serif;
+    padding: 50px 0px;
+}
+.footer .ulOne ul li{
+    border-right: 1px solid rgba(255, 255, 255,0.10);
+    padding-right: 33px;
+}
+.footer .ulOne ul .lastLI{
+    border-right:0;
+    
+}
+.footer .ulTwo ul{
+    column-gap: 20px;
+}
+.footer .ulTwo li{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #E5745D;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+    
+}
+.footer .ulTwo li i{
+   font-size: 20px;
+    
+
+   
+    
+}
+.copy{
+    background: #00413D;
+    padding: 80px 0px;
+    text-align: center;
+
+}
+
+.copy p{
+
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255,0.10);
+    padding-top: 30px;
+    width: 1484px;
+    margin: 0 auto;
+    color: white;
+
+}
+
+/* ==========================
+   Footer end
+============================= */
+
+

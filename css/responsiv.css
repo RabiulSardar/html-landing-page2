@@ -1,0 +1,48 @@
+@media (min-width:320px) and (max-width:575.99px){
+    .navbar-nav{
+        margin-left:2ch;
+    }
+    #nav-button{
+        display: none;
+    }
+    .navbar-brand{
+        margin-left:-100px;
+    }
+    .banner h1{
+        padding-top: 90px;
+        padding-left:75px;   
+        font-size: 35px;
+
+    }
+    .banner p{
+        padding-top: 10px;
+        font-size: 15px;
+        width: 400px;
+    }
+    .banner{
+        opacity: .8;
+    }
+    /* section card */
+    /* .services-card{
+        margin: 0;
+    } */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width:576px) and (max-width:767.99px){
+
+}
+
+
+@media (min-width:768px) and (max-width:991.99px){
+
+} */
