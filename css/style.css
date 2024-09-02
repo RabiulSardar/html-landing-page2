@@ -29,7 +29,7 @@ body{    overflow-x: hidden;
 
 /* banner start */
 .banner{
-    background-image: url(/image/background.webp)!important;
+    background-image: url(../image/background.webp)!important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -110,7 +110,7 @@ services  part start
 
 }
 .services .right_image1{
-    background-image: url(/image/card4.jpg);
+    background-image: url(../image/card4.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -129,7 +129,7 @@ services  part start
    bottom: 0;
  }
 .services .right_image2{
-    background-image: url(/image/card2.webp);
+    background-image: url(../image/card2.webp);
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -148,7 +148,7 @@ services  part start
     left: 0;
  }
 .services .right_image3{
-    background-image: url(/image/card1.png);
+    background-image: url(../image/card1.png);
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
